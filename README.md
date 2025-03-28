@@ -40,7 +40,7 @@ https://127.0.0.1:8080
 ```
 6. In the Kestra dashboard, navigate to "Flows" and select "Import"
 7. Navigate to the ../../Workflows folder and import the 4 workflow files. \
-*Repeat steps 6 and 7 if necessary to upload all 4*
+*Repeat steps 6 and 7 if necessary to import all 4 workflows*
 > 1-SetupKeystore.yaml
 > 2-SetupEnvironment.yaml
 > 3-IngestData.yaml
@@ -91,7 +91,7 @@ tasks:
     * 2-SetupEnvironment.yaml: Setup resources on Google Cloud Platform
     * 3-IngestData.yaml: Extract CSV file from datasource and process through Kestra and store in BigQuery/CloudStorage
 10. You can now go into Google Cloud Console and review the data that has been created in the *meteorite* dataset
-11. Review the Google Looker Studio dashboard
+11. You can review the Google Looker Studio dashboard shared link below:
 ```
 https://lookerstudio.google.com/reporting/b2f16ca0-8050-42a8-ac23-7aadfb6cda55 
 ```
