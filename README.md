@@ -26,11 +26,13 @@ Download: https://data.nasa.gov/api/views/gh4g-9sfh/rows.csv?accessType=DOWNLOAD
 
 1. Download the project to your local storage and unzip it in a convenient location
 ```
-wget -qO- https://github.com/rasj81/MeteoriteAnalytics/archive/refs/heads/main.zip | unzip file.zip
+wget https://github.com/rasj81/MeteoriteAnalytics/archive/refs/heads/main.zip
+unzip main.zip
 ```
 2. Navigate to the environment folder and start the docker-compose instance of Kestra
 ```
-cd ./environments/env0
+cd ./MeteoriteAnalytics-main/environments/env0
+docker-compose up -d
 ```
 3. Open Kestra at 127.0.0.1:8080
 ```
