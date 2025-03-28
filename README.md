@@ -55,7 +55,7 @@ tasks:
     type: io.kestra.plugin.core.kv.Set
     key: GCP_PROJECT_ID
     kvType: STRING
-    value: your_project_id # TODO replace with your project id  
+    $${\color{red}value: your_project_id # TODO replace with your project id{github}}$$  
 
   - id: gcp_bucket_name
     type: io.kestra.plugin.core.kv.Set
