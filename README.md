@@ -22,7 +22,7 @@ Download: https://data.nasa.gov/api/views/gh4g-9sfh/rows.csv?accessType=DOWNLOAD
 
 ![Screenshot of Meteorite Dataflow.](meteorite_dataflow.png)
 
-*These instructions assume a linux-like OS (Linux, Windows Subsystem for Linux, MacOS Terminal).  You may need to modify commands to suit your environment* \
+*These instructions assume a linux-like OS (Linux, Windows Subsystem for Linux, MacOS Terminal).  You may need to modify commands to suit your own environment*
 
 1. Download the project to your local storage and unzip it in a convenient location
 ```
