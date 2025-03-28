@@ -4,21 +4,6 @@ description: |
   The CSV Data used: "https://data.nasa.gov/api/views/gh4g-9sfh/rows.csv?accessType=DOWNLOAD"
   The Zipped File: "https://github.com/rasj81/MeteoriteAnalytics/raw/refs/heads/main/dataset/Meteorite_Landings.gz"
 
-## WIP - rewrite code for table structure.  Left off at line 111
-
-# Num  Column       Non-Null Count  File-Dtype   BQ-Dtype 
-# ---  ------       --------------  -----        -----
-#  0   name         45716 non-null  object       Text
-#  1   id           45716 non-null  int64        Text
-#  2   nametype     45716 non-null  object       Text
-#  3   recclass     45716 non-null  object       Text
-#  4   mass (g)     45585 non-null  float64      Number 
-#  5   fall         45716 non-null  object       Text
-#  6   year         45425 non-null  float64      Floating Timestamp
-#  7   reclat       38401 non-null  float64      Text
-#  8   reclong      38401 non-null  float64      Text
-#  9   GeoLocation  38401 non-null  object       Location
-
 
 variables:
   src_file: "https://data.nasa.gov/api/views/gh4g-9sfh/rows.csv?accessType=DOWNLOAD"
