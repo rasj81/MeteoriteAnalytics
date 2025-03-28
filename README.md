@@ -1,5 +1,5 @@
-# Meteorite Data Pipeline with Dashboard
-### Data Engineer Zoomcamp 2025 - Capstone Project
+# Meteorite Data Pipeline with Dashboard \
+*Data Engineer Zoomcamp 2025 - Capstone Project*
 
 ## Purpose of this project:
 The purpose of this project is to ingest meteorite data collected by the Meteoritical Society and present statistical and location information in a easy-to-interpret dashboard. There are several pyspark notebooks which utilize this data on Kaggle to interpret various insights, but I wanted to add a visual map to highlight the hotspots of meteorite discovery using looker studio.
