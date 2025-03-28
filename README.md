@@ -22,9 +22,9 @@ Download: https://data.nasa.gov/api/views/gh4g-9sfh/rows.csv?accessType=DOWNLOAD
 
 ![Screenshot of Meteorite Dataflow.](meteorite_dataflow.png)
 
-1. Download the project to your local storage
+1. Download the project to your local storage and unzip it in a convenient location
 ```
-wget https://github.com/rasj81/MeteoriteAnalytics/archive/refs/heads/main.zip
+wget -qO- https://github.com/rasj81/MeteoriteAnalytics/archive/refs/heads/main.zip | unzip file.zip
 ```
 2. Navigate to the environment folder and start the docker-compose instance of Kestra
 ```
